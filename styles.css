@@ -1,44 +1,39 @@
-body {
-    margin: 20px;
-    /*
-    Challenge:
-    Find a web safe font you like, and add it 
-    to your card.
-    */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
-.avatar {
-    width: 150px;
+body {
+    font-family: "Fira Code", monospace;
+    box-sizing: border-box;
+    background-color: #0F1E2E;
+    margin-top: 12em;
 }
 
 .card {
-    width: 400px;
+    width: 35em;
+    padding: 1em;
     margin: 0 auto;
-    padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
-    background: #BEC5AD;
-    color: #3B5249;
-    border-bottom: 6px solid #A4B494;
-    border-radius: 5px;
+    background-color: #1C2340;
+    border-radius: 8px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
-.border-blue {
-    border: 1px dotted blue;
+.card img{
+    width: 35%;
 }
 
-.card img {
-    border-radius: 5px
-}
-
-p {
-    color: #519872;
+.other-text {
+    padding-right: 3em;
 }
 
 h3 {
-    color: #34252F;
+    color: #A8B8CC;
+    font-weight: 500;
 }
 
+p {
+    color: #4C607A;
+    font-size: 0.8rem;
+}
